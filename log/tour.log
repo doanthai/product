@@ -1,0 +1,32 @@
+2018-11-23 09:55:07.138  INFO 14461 --- [restartedMain] c.zuto.production.ProductionApplication  : No active profile set, falling back to default profiles: default
+2018-11-23 09:55:07.990  INFO 14461 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-11-23 09:55:08.008  INFO 14461 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2018-11-23 09:55:08.292  INFO 14461 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=28d24b09-65b3-36b8-833b-499c722d8143
+2018-11-23 09:55:08.332  INFO 14461 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$78b35401] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-23 09:55:08.856  INFO 14461 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-11-23 09:55:08.872  INFO 14461 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-23 09:55:08.873  INFO 14461 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-23 09:55:08.880  INFO 14461 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+2018-11-23 09:55:08.983  INFO 14461 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-23 09:55:08.984  INFO 14461 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1836 ms
+2018-11-23 09:55:09.482  INFO 14461 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-11-23 09:55:09.536  INFO 14461 --- [cluster-ClusterId{value='5bf76c0d72588d387d1b4544', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:13}] to localhost:27017
+2018-11-23 09:55:09.539  INFO 14461 --- [cluster-ClusterId{value='5bf76c0d72588d387d1b4544', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 3]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2195297}
+2018-11-23 09:55:09.875  INFO 14461 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-23 09:55:09.875  INFO 14461 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2018-11-23 09:55:09.876  INFO 14461 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-23 09:55:09.877  INFO 14461 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-23 09:55:09.878  INFO 14461 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-23 09:55:09.878  INFO 14461 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2018-11-23 09:55:09.878  INFO 14461 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-23 09:55:10.139  INFO 14461 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-23 09:55:10.507  INFO 14461 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-11-23 09:55:10.568  INFO 14461 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2018-11-23 09:55:10.694  INFO 14461 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-23 09:55:10.699  INFO 14461 --- [restartedMain] c.zuto.production.ProductionApplication  : Started ProductionApplication in 5.604 seconds (JVM running for 6.537)
+2018-11-23 09:55:10.915  INFO 14461 --- [RMI TCP Connection(4)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-23 09:55:10.915  INFO 14461 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-11-23 09:55:10.927  INFO 14461 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2018-11-23 09:55:10.937  INFO 14461 --- [RMI TCP Connection(6)-127.0.0.1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:14}] to localhost:27017
+2018-11-23 14:00:18.421  INFO 14461 --- [Thread-24] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-11-23 14:00:18.427  INFO 14461 --- [Thread-24] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:14}] to localhost:27017 because the pool has been closed.
